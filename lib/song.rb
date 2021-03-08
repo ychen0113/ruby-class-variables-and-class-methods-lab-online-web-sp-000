@@ -28,7 +28,7 @@ class Song
   end 
   
   def self.genre_count
-    @@genres.reduce
+    @@genres.reduce() 
     
   end 
   
