@@ -28,7 +28,7 @@ class Song
   end 
   
   def self.genre_count
-    (genre, count) = @@genre.histogram
+    (genre, count) = @@genres.histogram
     
   end 
   
