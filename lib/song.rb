@@ -35,7 +35,10 @@ class Song
   end 
   
   def self.artist_count 
-    
+    @@artists.reduce(Hash.new(0)) do |k, v|
+      k[v] += 1 
+      k 
+    end 
   end 
   
   
