@@ -28,7 +28,7 @@ class Song
   end 
   
   def self.genre_count
-    @@genres.reduce() do |k, v|
+    @@genres.reduce(Hash.new) do |k, v|
       
     
   end 
